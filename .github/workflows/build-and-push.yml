@@ -188,10 +188,9 @@ jobs:
           title: 'Build finished'
 
   notify-on-error:
-    if: github.repository == 'remnawave/subscription-page'
+    if: github.repository == 'remnawave/subscription-page' && failure()
     runs-on: ubuntu-latest
     needs: [build-frontend, build-docker-images, merge]
-    if: failure()
     steps:
       - name: Checkout source code
         uses: actions/checkout@v7
