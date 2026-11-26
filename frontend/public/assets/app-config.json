@@ -7,7 +7,7 @@
             "fr"
         ],
         "branding": {
-            "name": "Subscription",
+            "name": "Remnawave X",
             "logoUrl": "https://docs.rw/img/logo.svg",
             "supportUrl": "https://t.me/remnawave"
         }
@@ -318,6 +318,50 @@
             }
         ],
         "android": [
+            {
+                "id": "antibs2client",
+                "name": "AntiBS2client",
+                "isFeatured": true,
+                "installationStep": {
+                    "buttons": [
+                        {
+                            "buttonLink": "https://github.com/samur005/AntiBS2client-releases/releases/latest",
+                            "buttonText": {
+                                "en": "Download from GitHub",
+                                "fa": "دانلود از GitHub",
+                                "ru": "Скачать с GitHub",
+                                "zh": "从 GitHub 下载",
+                                "fr": "Télécharger depuis GitHub"
+                            }
+                        }
+                    ],
+                    "description": {
+                        "en": "Open the official AntiBS2client GitHub Releases page and download the latest Remnawave X client APK (arm64 or universal) from the latest release.",
+                        "fa": "صفحه رسمی انتشار AntiBS2client در GitHub را باز کنید و آخرین APK کلاینت Remnawave X را از آخرین نسخه دانلود کنید.",
+                        "ru": "Откройте официальную страницу релизов AntiBS2client на GitHub и скачайте последний APK клиента Remnawave X из последнего релиза.",
+                        "zh": "打开 AntiBS2client 的官方 GitHub Releases 页面，从最新版本下载 Remnawave X 客户端 APK。",
+                        "fr": "Ouvrez la page officielle GitHub Releases d’AntiBS2client et téléchargez le dernier APK du client Remnawave X."
+                    }
+                },
+                "addSubscriptionStep": {
+                    "description": {
+                        "en": "AntiBS2client does not open a subscription automatically from this page. Copy the Remnawave X subscription link and add it in the app.",
+                        "fa": "AntiBS2client اشتراک را به‌صورت خودکار از این صفحه باز نمی‌کند. لینک اشتراک Remnawave X را کپی کنید و در برنامه اضافه کنید.",
+                        "ru": "AntiBS2client не подхватывает подписку с этой страницы автоматически. Скопируйте ссылку подписки Remnawave X и добавьте её в приложении.",
+                        "zh": "AntiBS2client 不会从此页面自动打开订阅。请复制 Remnawave X 订阅链接并在应用中添加。",
+                        "fr": "AntiBS2client n’ajoute pas automatiquement l’abonnement depuis cette page. Copiez le lien d’abonnement Remnawave X et ajoutez-le dans l’application."
+                    }
+                },
+                "connectAndUseStep": {
+                    "description": {
+                        "en": "Open AntiBS2client, import the copied Remnawave X subscription and connect.",
+                        "fa": "AntiBS2client را باز کنید، اشتراک کپی‌شده Remnawave X را وارد کنید و متصل شوید.",
+                        "ru": "Откройте AntiBS2client, импортируйте скопированную подписку Remnawave X и подключитесь.",
+                        "zh": "打开 AntiBS2client，导入已复制的 Remnawave X 订阅并连接。",
+                        "fr": "Ouvrez AntiBS2client, importez l’abonnement Remnawave X copié, puis connectez-vous."
+                    }
+                }
+            },
             {
                 "id": "flclashx",
                 "name": "FlClashX",
@@ -1494,6 +1538,50 @@
             }
         ],
         "windows": [
+            {
+                "id": "antibs2client",
+                "name": "AntiBS2client",
+                "isFeatured": true,
+                "installationStep": {
+                    "buttons": [
+                        {
+                            "buttonLink": "https://github.com/samur005/AntiBS2client-releases/releases/latest",
+                            "buttonText": {
+                                "en": "Download from GitHub",
+                                "fa": "دانلود از GitHub",
+                                "ru": "Скачать с GitHub",
+                                "zh": "从 GitHub 下载",
+                                "fr": "Télécharger depuis GitHub"
+                            }
+                        }
+                    ],
+                    "description": {
+                        "en": "Open the official AntiBS2client GitHub Releases page. The latest release currently publishes Android APKs; Windows builds appear on the same Releases page when they are published.",
+                        "fa": "صفحه رسمی انتشار AntiBS2client در GitHub را باز کنید. آخرین نسخه فعلاً APK اندروید را منتشر می‌کند؛ نسخه‌های ویندوز وقتی منتشر شوند در همین صفحه قرار می‌گیرند.",
+                        "ru": "Откройте официальную страницу релизов AntiBS2client на GitHub. В последнем релизе сейчас публикуются APK для Android; сборки для Windows появляются на той же странице, когда их выпускают.",
+                        "zh": "打开 AntiBS2client 的官方 GitHub Releases 页面。当前最新版本发布的是 Android APK；Windows 版本在发布后会出现在同一页面。",
+                        "fr": "Ouvrez la page officielle GitHub Releases d’AntiBS2client. La dernière version publie actuellement des APK Android ; les versions Windows apparaissent sur la même page lorsqu’elles sont publiées."
+                    }
+                },
+                "addSubscriptionStep": {
+                    "description": {
+                        "en": "AntiBS2client does not open a subscription automatically from this page. Copy the Remnawave X subscription link and add it in the app.",
+                        "fa": "AntiBS2client اشتراک را به‌صورت خودکار از این صفحه باز نمی‌کند. لینک اشتراک Remnawave X را کپی کنید و در برنامه اضافه کنید.",
+                        "ru": "AntiBS2client не подхватывает подписку с этой страницы автоматически. Скопируйте ссылку подписки Remnawave X и добавьте её в приложении.",
+                        "zh": "AntiBS2client 不会从此页面自动打开订阅。请复制 Remnawave X 订阅链接并在应用中添加。",
+                        "fr": "AntiBS2client n’ajoute pas automatiquement l’abonnement depuis cette page. Copiez le lien d’abonnement Remnawave X et ajoutez-le dans l’application."
+                    }
+                },
+                "connectAndUseStep": {
+                    "description": {
+                        "en": "Open AntiBS2client, import the copied Remnawave X subscription and connect.",
+                        "fa": "AntiBS2client را باز کنید، اشتراک کپی‌شده Remnawave X را وارد کنید و متصل شوید.",
+                        "ru": "Откройте AntiBS2client, импортируйте скопированную подписку Remnawave X и подключитесь.",
+                        "zh": "打开 AntiBS2client，导入已复制的 Remnawave X 订阅并连接。",
+                        "fr": "Ouvrez AntiBS2client, importez l’abonnement Remnawave X copié, puis connectez-vous."
+                    }
+                }
+            },
             {
                 "id": "flclashx",
                 "name": "FlClashX",

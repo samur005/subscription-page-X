@@ -217,6 +217,17 @@ export const InstallationGuideConnector = (props: IProps) => {
                                         {app.featured && <span className={classes.featuredBadge} />}
                                         {hasIcon && (
                                             <span
+                                                className={classes.appIcon}
+                                                dangerouslySetInnerHTML={{
+                                                    __html: getIconFromLibrary(
+                                                        app.svgIconKey!,
+                                                        svgLibrary
+                                                    )
+                                                }}
+                                            />
+                                        )}
+                                        {hasIcon && (
+                                            <span
                                                 className={clsx(
                                                     classes.bgIcon,
                                                     isActive && classes.bgIconActive

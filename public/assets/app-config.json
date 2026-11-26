@@ -123,6 +123,42 @@
     ],
     "android": [
         {
+            "id": "antibs2client",
+            "name": "AntiBS2client",
+            "isFeatured": true,
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/samur005/AntiBS2client-releases/releases/latest",
+                        "buttonText": {
+                            "en": "Download from GitHub",
+                            "fa": "دانلود از GitHub",
+                            "ru": "Скачать с GitHub"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Open the official AntiBS2client GitHub Releases page and download the latest Remnawave X client APK from the latest release.",
+                    "fa": "صفحه رسمی انتشار AntiBS2client در GitHub را باز کنید و آخرین APK را دانلود کنید.",
+                    "ru": "Откройте официальную страницу релизов AntiBS2client на GitHub и скачайте последний APK клиента Remnawave X."
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Copy the Remnawave X subscription link and add it in AntiBS2client.",
+                    "fa": "لینک اشتراک Remnawave X را کپی کنید و در AntiBS2client اضافه کنید.",
+                    "ru": "Скопируйте ссылку подписки Remnawave X и добавьте её в AntiBS2client."
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open AntiBS2client, import the subscription and connect.",
+                    "fa": "AntiBS2client را باز کنید، اشتراک را وارد کنید و متصل شوید.",
+                    "ru": "Откройте AntiBS2client, импортируйте подписку и подключитесь."
+                }
+            }
+        },
+        {
             "id": "happ",
             "name": "Happ",
             "isFeatured": true,
@@ -214,6 +250,42 @@
         }
     ],
     "pc": [
+        {
+            "id": "antibs2client",
+            "name": "AntiBS2client",
+            "isFeatured": true,
+            "installationStep": {
+                "buttons": [
+                    {
+                        "buttonLink": "https://github.com/samur005/AntiBS2client-releases/releases/latest",
+                        "buttonText": {
+                            "en": "Download from GitHub",
+                            "fa": "دانلود از GitHub",
+                            "ru": "Скачать с GitHub"
+                        }
+                    }
+                ],
+                "description": {
+                    "en": "Open the official AntiBS2client GitHub Releases page and download the latest Remnawave X client APK from the latest release.",
+                    "fa": "صفحه رسمی انتشار AntiBS2client در GitHub را باز کنید و آخرین APK را دانلود کنید.",
+                    "ru": "Откройте официальную страницу релизов AntiBS2client на GitHub и скачайте последний APK клиента Remnawave X."
+                }
+            },
+            "addSubscriptionStep": {
+                "description": {
+                    "en": "Copy the Remnawave X subscription link and add it in AntiBS2client.",
+                    "fa": "لینک اشتراک Remnawave X را کپی کنید و در AntiBS2client اضافه کنید.",
+                    "ru": "Скопируйте ссылку подписки Remnawave X и добавьте её в AntiBS2client."
+                }
+            },
+            "connectAndUseStep": {
+                "description": {
+                    "en": "Open AntiBS2client, import the subscription and connect.",
+                    "fa": "AntiBS2client را باز کنید، اشتراک را وارد کنید و متصل شوید.",
+                    "ru": "Откройте AntiBS2client, импортируйте подписку и подключитесь."
+                }
+            }
+        },
         {
             "id": "clash-verge",
             "name": "Clash Verge",
