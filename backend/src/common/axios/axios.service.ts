@@ -34,7 +34,7 @@ export class AxiosService implements OnModuleInit {
             baseURL: this.configService.getOrThrow('REMNAWAVE_PANEL_URL'),
             timeout: 10_000,
             headers: {
-                'user-agent': 'Remnawave Subscription Page',
+                'user-agent': 'Remnawave X Subscription Page',
                 'x-subpage-version': this.subpageVersion,
                 Authorization: `Bearer ${this.configService.getOrThrow('REMNAWAVE_API_TOKEN')}`,
             },
@@ -75,7 +75,7 @@ export class AxiosService implements OnModuleInit {
     async onModuleInit(): Promise<void> {
         this.subpageVersion = __RW_SUBPAGE_VERSION__;
 
-        this.logger.log(`Remnawave API URL: ${this.axiosInstance.defaults.baseURL}`);
+        this.logger.log(`Remnawave X API URL: ${this.axiosInstance.defaults.baseURL}`);
 
         const remnawaveMetadata = await this.getRemnawaveMetadata();
         if (!remnawaveMetadata.isOk || !remnawaveMetadata.remnawaveVersion) {
@@ -83,7 +83,7 @@ export class AxiosService implements OnModuleInit {
                 '\n' +
                     table([['Is the panel online and reachable from this server?']], {
                         header: {
-                            content: `Connection to Remnawave Panel failed!`,
+                            content: `Connection to Remnawave X Panel failed!`,
                             alignment: 'center',
                         },
                         columnDefault: {
@@ -99,7 +99,7 @@ export class AxiosService implements OnModuleInit {
 
             exit(1);
         } else {
-            this.logger.log(`[OK] Connected to Remnawave v${remnawaveMetadata.remnawaveVersion}`);
+            this.logger.log(`[OK] Connected to Remnawave X v${remnawaveMetadata.remnawaveVersion}`);
         }
     }
 
@@ -211,7 +211,7 @@ export class AxiosService implements OnModuleInit {
                 if (error.response?.status === 404) {
                     this.logger.error('Request failed with 404 status code.');
                     this.logger.error(
-                        'This version of Subscription Page requires Remnawave Panel version >=2.4.0. Please upgrade Remnawave Panel to the latest version or downgrade Subscription Page.',
+                        'This version of Subscription Page requires Remnawave X Panel version >=2.4.0. Please upgrade Remnawave X Panel to the latest version or downgrade Subscription Page.',
                     );
                     return { isOk: false };
                 }

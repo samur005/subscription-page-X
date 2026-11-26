@@ -1,13 +1,13 @@
-## Remnawave Subscription Page
+## Remnawave X Subscription Page
 
-Learn more about Remnawave [here](https://docs.rw/).
+Subscription page for Remnawave X (a fork of Remnawave). Learn more about the original Remnawave [here](https://docs.rw/).
 
 # Contributors
 
 Check [open issues](https://github.com/remnawave/subscription-page/issues) to help the progress of this project.
 
 <p align="center">
-Thanks to the all contributors who have helped improve Remnawave:
+Thanks to the all contributors who have helped improve Remnawave X:
 </p>
 <p align="center">
 <a href="https://github.com/remnawave/subscription-page/graphs/contributors">

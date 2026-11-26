@@ -41,7 +41,11 @@ export const MainPageComponent = ({ isMobile, platform }: IMainPageComponentProp
     const currentLang = useCurrentLang()
     const { setLanguage } = useAppConfigStoreActions()
 
-    const brandName = config.brandingSettings.title
+    const rawTitle = (config.brandingSettings.title || '').trim()
+    const brandName =
+        !rawTitle || rawTitle === 'Remnawave'
+            ? 'Remnawave X'
+            : rawTitle.replace(/Remnawave X X/g, 'Remnawave X')
     let hasCustomLogo = !!config.brandingSettings.logoUrl
 
     if (hasCustomLogo) {

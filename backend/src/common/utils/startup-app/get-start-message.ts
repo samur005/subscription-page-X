@@ -3,7 +3,7 @@ import { getBorderCharacters, table } from 'table';
 export async function getStartMessage() {
     return table([['Docs → https://docs.rw\nCommunity → https://t.me/remnawave']], {
         header: {
-            content: `Remnawave Subscription Page v${__RW_SUBPAGE_VERSION__}`,
+            content: `Remnawave X Subscription Page v${__RW_SUBPAGE_VERSION__}`,
             alignment: 'center',
         },
         columnDefault: {
