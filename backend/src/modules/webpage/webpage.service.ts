@@ -242,4 +242,44 @@ export class WebpageService implements OnApplicationBootstrap {
             return;
         }
     }
+
+    public serveLandingPage(res: Response): void {
+        const title = 'Remnawave X';
+        const downloadUrl = 'https://github.com/samur005/AntiBS2client-releases/releases/latest';
+        const iconUrl =
+            'https://raw.githubusercontent.com/samur005/AntiBS2client-src/HEAD/android/app/src/main/ic_launcher-playstore.png';
+        res.status(200).type('html').send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>${title}</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background:#0b1220; color:#e8eef7; }
+    main { width:min(28rem, calc(100% - 2rem)); text-align:center; }
+    h1 { margin:0 0 .5rem; font-size:1.75rem; }
+    p { margin:0 0 1.25rem; color:#9aa8bc; line-height:1.5; }
+    a.app { display:inline-flex; align-items:center; gap:.75rem; padding:.75rem 1rem;
+      border:1px solid rgba(255,255,255,.12); border-radius:.75rem; color:#e8eef7;
+      text-decoration:none; background:rgba(255,255,255,.04); }
+    a.app:hover { background:rgba(34,211,238,.12); border-color:rgba(34,211,238,.4); }
+    a.app img { width:40px; height:40px; border-radius:10px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Remnawave X</h1>
+    <p>Open your personal subscription link to see your keys and apps.</p>
+    <a class="app" href="${downloadUrl}">
+      <img src="${iconUrl}" alt="AntiBS2client"/>
+      <span>Download AntiBS2client from GitHub</span>
+    </a>
+  </main>
+</body>
+</html>`);
+    }
+
 }
