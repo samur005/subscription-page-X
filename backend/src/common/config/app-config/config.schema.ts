@@ -24,7 +24,7 @@ const isTrustProxy = (val: string): boolean => {
 };
 
 const REQUIRED_REMNAWAVE_API_TOKEN_MESSAGE =
-    'Remnawave Dashboard → Remnawave Settings → API Tokens. Create a new API Token and set it in the .env file.';
+    'Remnawave X Dashboard → Remnawave X Settings → API Tokens. Create a new API Token and set it in the .env file.';
 
 export const configSchema = z
     .object({

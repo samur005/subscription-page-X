@@ -15,11 +15,11 @@ RUN npm run build \
 FROM node:24.22-trixie-slim
 WORKDIR /opt/app
 
-LABEL org.opencontainers.image.title="Remnawave Subscription Page"
-LABEL org.opencontainers.image.description="Remnawave Subscription Page"
-LABEL org.opencontainers.image.url="https://github.com/remnawave/subscription-page"
-LABEL org.opencontainers.image.source="https://github.com/remnawave/subscription-page"
-LABEL org.opencontainers.image.vendor="Remnawave"
+LABEL org.opencontainers.image.title="Remnawave X Subscription Page"
+LABEL org.opencontainers.image.description="Remnawave X Subscription Page"
+LABEL org.opencontainers.image.url="https://github.com/samur005/subscription-page-X"
+LABEL org.opencontainers.image.source="https://github.com/samur005/subscription-page-X"
+LABEL org.opencontainers.image.vendor="Remnawave X"
 LABEL org.opencontainers.image.licenses="AGPL-3.0"
 LABEL org.opencontainers.image.documentation="https://docs.rw"
 
